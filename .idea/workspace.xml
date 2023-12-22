@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f657aef-fee4-4b8e-afab-9f689379573e" name="Changes" comment="load the excel files into dataframe">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pdf_invoices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDFs/10001-2023.1.18.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDFs/10002-2023.1.18.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDFs/10003-2023.1.18.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text_file/cats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text_file/dogs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text_file/foxes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Text_file/snakes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.pdf" afterDir="false" />
+    <list default="true" id="7f657aef-fee4-4b8e-afab-9f689379573e" name="Changes" comment="add a table">
+      <change afterPath="$PROJECT_DIR$/pythonhow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDFs/10001-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/10001-2023.1.18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDFs/10002-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/10002-2023.1.18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDFs/10003-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/10003-2023.1.18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDFs/exerc_sol.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/exerc_sol.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,27 +40,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.excercise.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ANIL KUMAR YADAV/python app/pdf_invoices/Invoices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.excercise.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ANIL KUMAR YADAV/python app/pdf_invoices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ANIL KUMAR YADAV\python app\pdf_invoices" />
       <recent name="C:\Users\ANIL KUMAR YADAV\python app\pdf_invoices\Invoices" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ANIL KUMAR YADAV\python app\pdf_invoices\Text_file" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.excercise">
     <configuration name="excercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pdf_invoices" />
       <option name="ENV_FILES" value="" />
@@ -152,13 +144,33 @@
       <option name="project" value="LOCAL" />
       <updated>1703224268053</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add a table">
+      <option name="closed" value="true" />
+      <created>1703239508797</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703239508797</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="load the excel files into dataframe" />
-    <option name="LAST_COMMIT_MESSAGE" value="load the excel files into dataframe" />
+    <MESSAGE value="add a table" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a table" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

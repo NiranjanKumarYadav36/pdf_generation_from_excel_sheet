@@ -14,7 +14,13 @@ for filepath in filepaths:
     filename = raw_filename.capitalize()
 
     pdf.set_font(family='Times', size=15, style='B')
-    pdf.cell(w=0, h=8, txt=filename)
+    pdf.cell(w=50, h=8, txt=filename, ln=1)
+
+    with open(f"Text_file/{raw_filename}.txt", 'r') as file:
+        content = file.read()
+
+    pdf.set_font(family='Times', size=12)
+    pdf.multi_cell(w=0, h=6, txt=content)
 
 
 pdf.output("PDFs/exerc_sol.pdf")
