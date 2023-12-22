@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f657aef-fee4-4b8e-afab-9f689379573e" name="Changes" comment="add a table">
-      <change afterPath="$PROJECT_DIR$/pythonhow.png" afterDir="false" />
+    <list default="true" id="7f657aef-fee4-4b8e-afab-9f689379573e" name="Changes" comment="final commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PDFs/10001-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/10001-2023.1.18.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PDFs/10002-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/10002-2023.1.18.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PDFs/10003-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/10003-2023.1.18.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDFs/exerc_sol.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/exerc_sol.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDFs/exercise_sol.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/exercise_sol.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/excercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/excercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exerc_sol.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.excercise.executor": "Run",
+    "Python.excersise2.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,7 +62,7 @@
       <recent name="C:\Users\ANIL KUMAR YADAV\python app\pdf_invoices\Text_file" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.excercise">
+  <component name="RunManager" selected="Python.main">
     <configuration name="excercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pdf_invoices" />
       <option name="ENV_FILES" value="" />
@@ -76,6 +77,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excercise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="excersise2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pdf_invoices" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/excersise2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,6 +132,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.excercise" />
+        <item itemvalue="Python.excersise2" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703239508797</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final commit">
+      <option name="closed" value="true" />
+      <created>1703243982631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703243982631</updated>
+    </task>
+    <task id="LOCAL-00005" summary="final commit">
+      <option name="closed" value="true" />
+      <created>1703244017690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703244017690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,15 +200,20 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="load the excel files into dataframe" />
     <MESSAGE value="add a table" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a table" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>25</line>
+          <line>31</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/excercise.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

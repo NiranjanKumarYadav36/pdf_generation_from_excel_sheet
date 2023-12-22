@@ -9,22 +9,29 @@ filepaths = glob.glob("Invoices/*.xlsx")
 
 for filepath in filepaths:
 
+    # create pdf file
     pdf = FPDF(orientation='p', unit='mm', format='A4')
     pdf.set_auto_page_break(auto='False', margin=0)
     pdf.add_page()
 
+    # get the filename as a filepath
     filename = Path(filepath).stem
     invoice_list = filename.split("-")
+
     # invoice_nr , date = filename.split("-")
 
+    # set the header with invoice no.
     pdf.set_font(family='Times', style='B', size=15)
     pdf.cell(w=0, h=8, txt=f"Invoice nr. {invoice_list[0]}", ln=1)
 
+    # set the header with invoice date
     pdf.set_font(family='Times', style='B', size=15)
     pdf.cell(w=0, h=9, txt=f"Order dt. {invoice_list[1]}", ln=1)
 
+    # reading contents from Excel files
     df = pd.read_excel(filepath, sheet_name='Sheet 1')
 
+    # set the header for tables columns
     columns = list(df.columns)
     columns = [item.replace("_", " ").title() for item in columns]
 
@@ -36,6 +43,7 @@ for filepath in filepaths:
     pdf.cell(w=30, h=8, txt=columns[3], border=1)
     pdf.cell(w=30, h=8, txt=columns[4], border=1, ln=1)
 
+    # create table and fill the data
     for index, rows in df.iterrows():
         pdf.set_font(family='Times', size=10)
         pdf.set_text_color(80, 80, 80)
@@ -47,6 +55,7 @@ for filepath in filepaths:
 
     total_sum = df["total_price"].sum()
 
+    # set the total_price of product
     pdf.set_font(family='Times', size=10)
     pdf.set_text_color(80, 80, 80)
     pdf.cell(w=30, h=8, txt="", border=1)
@@ -61,7 +70,6 @@ for filepath in filepaths:
     pdf.set_font(family='Times', size=15, style='B')
     pdf.cell(w=29, h=8, txt=f"PythonHow",)
     pdf.image("pythonhow.png", w=10)
-
 
     # dynamic string
     pdf.output(f"PDFs/{filename}.pdf")
