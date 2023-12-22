@@ -23,4 +23,4 @@ for filepath in filepaths:
     pdf.multi_cell(w=0, h=6, txt=content)
 
 
-pdf.output("PDFs/exerc_sol.pdf")
+pdf.output("PDFs/exercise_sol.pdf")
