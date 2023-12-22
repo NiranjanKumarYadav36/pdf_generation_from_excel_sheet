@@ -8,4 +8,3 @@
 2. [x] fpdf library (pip install fpdf)
 3. [x] pandas library (pip install pandas)
 4. [x] openpyxl library (pip install openpyxl)
-5. [x] Usage
